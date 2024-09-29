@@ -1,0 +1,58 @@
+/* Overall container for the Booking Form */
+.booking-form__container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+    max-width: 400px; /* Increase max-width for a more spacious look */
+}
+
+/* Input fields and select elements styling */
+.booking-form__input,
+.booking-form__select {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+/* Focus effect for input fields */
+.booking-form__input:focus,
+.booking-form__select:focus {
+    border-color: #f9a825; /* Lemon yellow */
+    outline: none;
+}
+
+/* Label styling */
+.booking-form__label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Submit button styling */
+.booking-form__submit-button {
+    background-color: #f9a825; /* Lemon yellow */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.booking-form__submit-button:hover {
+    background-color: #d69e1e; /* Darker shade of yellow on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .booking-form__container {
+        padding: 1rem;
+        width: 90%; /* Make the form more flexible on smaller screens */
+    }
+}

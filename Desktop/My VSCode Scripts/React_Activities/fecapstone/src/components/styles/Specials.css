@@ -1,0 +1,144 @@
+#menu {
+    margin-bottom: 60px;
+  }
+  
+  
+  .highlights {
+    position: relative;
+    padding: 50px 100px 0;
+    margin-top: 80px;
+    text-align: start;
+  }
+  
+  .highlights-card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card1-img,
+  .card2-img,
+  .card3-img {
+    border-radius: 8px;
+  }
+  
+  .card p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  .card1 {
+    grid-column: 2 / 3;
+  }
+  
+  .card2 {
+    grid-column: 3 / 4;
+  }
+  
+  .card3 {
+    grid-column: 4 / 5;
+  }
+  
+  .card1-img {
+    margin: -45px auto;
+    margin-bottom: 20px;
+  }
+  
+  .card2-img {
+    margin: -45px auto;
+    margin-bottom: 20px;
+  }
+  
+  .card3-img {
+    margin: -45px auto;
+    margin-bottom: 20px;
+  }
+  
+  .food-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .highlights-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .highlights-header h2 {
+    font-size: 2rem;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #f48b14;
+  }
+  
+  .order {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 100px 0 0;
+  }
+  
+  .bike-img {
+    height: 15px;
+    position: relative;
+    top: 5px;
+  }
+  
+  
+  .highlights-header button {
+    padding: 0.5rem 1rem;
+    margin: 10px 300px 10px;
+    font-size: 1rem;
+    background-color: #F4CE14;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    min-width: 150px;
+  }
+  
+  .highlights-header button:hover  {
+    background-color: #524e47;
+    color: white;
+  }
+  
+  
+  .testimonials {
+    background-color: #b3b0b0;
+    padding: 40px 20px;
+    margin: 0;
+  }
+  
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Makes them responsive and side by side */
+    gap: 5px;
+    margin-bottom: 40px;
+  }

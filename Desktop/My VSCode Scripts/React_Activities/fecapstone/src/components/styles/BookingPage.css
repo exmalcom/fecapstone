@@ -1,0 +1,85 @@
+/* Overall container for the Booking Page */
+.booking-page__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main heading style */
+.booking-page__heading {
+    font-size: 2.5rem;
+    color: #f9a825; /* Lemon yellow */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Subheading style */
+.booking-page__subheading {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Booking form container */
+.booking-page__form-container {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Available slots section */
+.booking-page__slots-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual booking slot */
+.booking-page__slot {
+    background-color: #e0e0e0;
+    border: 2px solid #f9a825;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.booking-page__slot:hover {
+    background-color: #f9a825;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .booking-page__container {
+        padding: 1rem;
+    }
+    
+    .booking-page__heading {
+        font-size: 2rem;
+    }
+    
+    .booking-page__subheading {
+        font-size: 1rem;
+    }
+
+    .booking-page__slot {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .booking-page__slot {
+        width: 100%;
+    }
+}
